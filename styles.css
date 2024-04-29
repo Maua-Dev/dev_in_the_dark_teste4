@@ -24,9 +24,11 @@
 
 body {
     background-color: var(--gray);
+    margin: 0;
 }
 
 .grid_geral{
+    size: 100%;
     display: grid;
     columns: 3;
     max-lines: 3;
