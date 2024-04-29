@@ -33,8 +33,15 @@ body {
     display: grid;
     columns: 3;
     max-lines: 3;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .centro {
     color: var(--red);
+}
+
+p {
+    color: white
 }
