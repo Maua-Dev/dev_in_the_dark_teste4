@@ -21,3 +21,17 @@
 }
 
 /* Escreva a partir daqui */
+
+body {
+    background-color: var(--gray);
+}
+
+.grid_geral{
+    display: grid;
+    columns: 3;
+    max-lines: 3;
+}
+
+.centro {
+    color: var(--red);
+}
