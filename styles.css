@@ -23,15 +23,13 @@
 /* Escreva a partir daqui */
 
 body {
-    width: 100vh;
+    width: 100%;
     height: 100vh;
     background-color: black;
     margin: 0;
 }
 
 .grid_geral{
-    width: 100%;
-    height: 100%;
     display: grid;
     columns: 3;
     max-lines: 3;
